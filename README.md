@@ -53,30 +53,34 @@ public class TesteCalc{
 ```
 O método assetEquals é um dos métodos mais utilizados do JUnit, porém existem vários outros:
 
-assertTrue( );
-  Verifica se uma determinada condição é verdadeira.
-assertFalse( );
-  Verificada se uma determinada condição é falsa.
-assertEquals( );
-  Verifica se uma determinada condição é igual.
-assertNotEquals( );
-  Verifica se uma determinada condição não é igual.
-assertSame( );
-  Verifica se as instâncias de um determinado objeto é o mesmo, ou melhor se as instâncias testadas são as mesmas.
-assertNotSame( );
-  Verifica se as instâncias não são as mesmas, ou melhor se as instâncias dos objetos testados são diferentes.
-assertNull( );
-  Verifica se a condição testada retorna uma valor Null.
-assertNotNull( );
-  Verifica se a condição testada não é Null.
-fail( );
-  Faz um teste falhar.
+* assertTrue( );
+  - Verifica se uma determinada condição é verdadeira.
+  
+* assertFalse( );
+  - Verificada se uma determinada condição é falsa.
+  
+* assertEquals( );
+  - Verifica se uma determinada condição é igual.
+  
+* assertNotEquals( );
+  - Verifica se uma determinada condição não é igual.
+  
+* assertSame( );
+  - Verifica se as instâncias de um determinado objeto é o mesmo, ou melhor se as instâncias testadas são as mesmas.
+  
+* assertNotSame( );
+  - Verifica se as instâncias não são as mesmas, ou melhor se as instâncias dos objetos testados são diferentes.
+  
+* assertNull( );
+  - Verifica se a condição testada retorna uma valor Null.
+  
+* assertNotNull( );
+  - Verifica se a condição testada não é Null.
+  
+* fail( );
+  - Faz um teste falhar.
 
 Existem mais testes, a lista completa pode ser obtida da documentação do Junit;
 
 [Documentação Junit](https://junit.org/junit4/javadoc/4.12/org/junit/Assert.html)
-
-
-
-
 
