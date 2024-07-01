@@ -1,6 +1,6 @@
 # Testes de Software
 Os teste de software são uma etapa muito importante do desenvolvimento de qualquer aplicação.
-Muitas vezes acabam por ser deixados de lados, e não diminuindo sua real importância.
+Muitas vezes acabam por ser deixados de lados, diminuindo assim sua real importância.
 Podemos dividir os testes em 3 grandes categorias:
 
 ### Testes Unitários
