@@ -99,18 +99,22 @@ O método assetEquals é um dos métodos mais utilizados do JUnit, porém existe
 
   Outras anotações importantes são mais relacionadas a criação de cenários para teste de software.
 
-  @BeforeAll
+  *@BeforeAll*
+  
   Está anotação indica ao Junit, que o método anotado, deve ser executado antes de todos os testes terem sido executados.
   O método anotado para ser executado antes de todos os outros, deverá ser estático (static).
   
-  @AfterAll
+  *@AfterAll*
+  
   Está anotação indica ao Junit, que o método anotado, deve ser executado após todos os testes terem sido executados.
   O método anotado para ser executado depois de todos os outros, deverá ser estático (static).
 
-  @BeforeEach
+  *@BeforeEach*
+  
   Está anotação indica ao Junit, que o método anotado, deve ser executado antes da execução de cada uma dos testes.
 
-  @AfterEach
+  *@AfterEach*
+  
   Está anotação indica ao Junit, que o método anotado, deve ser executado depois da execução de cada uma dos testes.
 
 Existem mais testes, a lista completa pode ser obtida da documentação do Junit;
