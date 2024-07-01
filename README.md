@@ -1,12 +1,16 @@
 # Testes de Software
+Os teste de software são uma etapa muito importante do desenvolvimento de qualquer aplicação.
+Muitas vezes acabam por ser deixados de lados, e não diminuindo sua real importância.
+Podemos dividir os testes em 3 grandes categorias:
+
 ### Testes Unitários
 Testa uma única classe ou método. Esses testes são feitos isoladamente.
 
 ### Testes de Integração
-Testa o funcionamento do conjunto de classes e métodos como um todo. Testa a colaboração da combinação de várias classes e seus métodos, como conjunto.
+Testa o funcionamento do conjunto de classes e métodos como um todo. Testa a colaboração e a combinação de várias classes e seus métodos, como conjunto.
 
 ### Teste Funcional
-Testes desenvolvidos sob a ótica do usuário.
+Testes desenvolvidos sob a ótica do usuário. São feitos já no "front" ou outra interface adotada.
 
 Os testes são similares, entre em si, mudando somente o escopo onde são efetuados.
 
@@ -38,6 +42,7 @@ public class TesteCalc{
 ```
 Outra coisa que temos que ter mente, é que precisamos criar o cenário, que será necessário para efetuar o teste da funcionalidade desejada.
 Alguns exemeplos, são criar um novo banco de dados, com os registros necessários para efetuar um determinado teste. Criar um arquivo de configuração necessário para explorarmos uma determinada funcionalidade e testa-lá.
+No nosso caso, nosso cenário basicamente é a criação de uma nova instância de nossa calculadora.
 
 E finalmente, após criarmos nossa classe de testes, anotar o método de teste, e criarmos o cenário para nosso teste, precisamos verificar o resultado da execução de nosso teste.
 
