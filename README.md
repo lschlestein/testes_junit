@@ -87,5 +87,4 @@ O método assetEquals é um dos métodos mais utilizados do JUnit, porém existe
 
 Existem mais testes, a lista completa pode ser obtida da documentação do Junit;
 
-[Documentação Junit](https://junit.org/junit4/javadoc/4.12/org/junit/Assert.html)
-
+[Documentação Junit](https://junit.org/junit4/javadoc/4.12/org/junit/Assert.html](https://junit.org/junit5/docs/5.0.1/api/org/junit/jupiter/api/Assertions.html)
