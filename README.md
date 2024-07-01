@@ -19,6 +19,18 @@ Os testes são similares, entre em si, mudando somente o escopo onde são efetua
 As classes de teste, não tem nada de especial em relação a uma classe normal em Java. O que mudam são algumas anotações e métodos que o JUnit nos fornece para nos auxiliar no escopo de testes.
 Por exemplo, se pensarmos em uma classe Calculadora, basta criarmos uma classe TesteCalc e escrevermos seus respecitvos testes.
 
+Primeiramente, é necessário adiocionar a dependência do Junit em nosso projeto.
+```xml
+ <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+```
+
 ### Um método de teste utilizando o JUnit, precisa ser anotado com @Test.
 Ex.
 ```java
