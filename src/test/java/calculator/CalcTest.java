@@ -1,8 +1,6 @@
 package calculator;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -12,6 +10,15 @@ class CalcTest {
     double b;
     double res;
     Calc calc;
+
+    @BeforeAll
+    static void setUpBeforeClass() throws Exception {
+    }
+
+    @AfterAll
+    static void tearDownAfterClass() throws Exception {
+
+    }
 
     @BeforeEach
     void setUp() {
